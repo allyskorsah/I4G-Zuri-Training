@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:1440px) {
+    body{
+        background-image: url(bg-intro-desktop.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: hsl(0, 100%, 74%);
+    }
+    
+}
+
+@media screen and (max-width:375px) {
+    body{
+        background-image: url(bg-intro-mobile.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: hsl(0, 61%, 18%);
+    }
+
+    .flex-con{
+        flex-direction: column;
+        width:50px;
+        margin: 50px auto;
+        text-align: center;
+    }
+    
+}
+
+/* Style for form*/
+fieldset{
+    width: 300px;
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: inset;
+    padding: 25px 0;
+}
+
+.top{
+    width: 480px;
+    margin-left: -20px;
+    
+}
+
+input{
+    border:1px solid rgb(73, 73, 226);
+    margin:5px 30px;
+    width:auto;
+    height:40px;
+    border-radius:5px;
+}
+
+button{
+    width: 87%;
+    padding: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0 10px 29px;
+}
+
+.button2{
+    background-color: green;
+    size: 50px;
+}
+
+/*Container Style*/
+.flex-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px auto;
+}
+
+.flex-item1{
+    flex-wrap: wrap;
+    display: block;
+    color: white;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+
+}
+
+.flex-item2{
+
+}
+
+
+/* form{
+    text-align: center;
+}
+
+input{
+    border:2px solid;
+    margin:5px 30px;
+    width:auto;
+    height:30px;
+    border-radius:5px;
+    display: block;
+} */
+
+
+/* 
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.left{
+    /* font-weight: 700; */
+    /* text-align: center;
+    flex:50%;
+    align-content: center;
+}
+
+
+.right{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    flex:50%;
+    align-items: center;
+}
+
+forms{
+    /* background-color: antiquewhite; 
+    margin: auto;
+    border: 2px;
+    /* border-radius: 5px;
+}
+
+.forms input{
+    border: 1px solid rgb(139, 139, 231);
+    border-radius:15px ;
+    width: auto;
+    margin: 50px 30px;
+    height: 30px;
+}
+
+fieldset{
+    width: 500px;
+    background-color:rgb(250, 245, 245);
+    text-align: center;
+    padding: 20px;
+    border-style: none;
+    box-shadow: 90px;
+    height: auto;
+
+} */
